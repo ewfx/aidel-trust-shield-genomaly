@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Trust Shield Genomaly {% endblock %}</h1>    
+    <h2>Welcome to AI-Driven Entity Intelligence Risk Analysis</h2>
+    <h3>Extract Entity</h3>
+    <h3>{{ file_text }}</h3>
+    <hr/>
+    <h1>Upload a File to Extract Text</h1>
+
+
+    <form method='POST' enctype='multipart/form-data'>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+{% endblock %}
