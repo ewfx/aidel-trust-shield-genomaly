@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Index {% endblock %}</h1>
+    <h1>Extract Entity</h1>
+    <h2>Welcome to FlaskApp!</h2>
+    <h3>{{ file_text }}</h3>
+    <hr/>
+    <h1>Upload a File to Extract Text</h1>
+    <form method='POST' enctype='multipart/form-data'>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+    <div id="result">
+        {% if text %}
+            <h2>Extracted Text:</h2>
+            <pre>{{ text }}</pre>
+        {% endif %}
+    </div>
+{% endblock %}
