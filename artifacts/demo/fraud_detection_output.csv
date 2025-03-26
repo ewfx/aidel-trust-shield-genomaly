@@ -1,0 +1,4 @@
+Transaction ID,Extracted Entity,Entity Type,Risk Score,Supporting Evidence,Confidence Score,Reason
+TXN-2023-5A9B,"Global Horizons Consulting LLC, Bright Future Nonprofit Inc","Corporation, NGO",0.0,"OpenCorporates, OpenCorporates",0.8688125850636003,No specific risk detected.; No specific risk detected.
+TXN-2023-7C2D,"Quantum Holdings Ltd, Golden Sands Trading FZE","Shell Company, Corporation",0.0,"BVI Shell Company Registries, OpenCorporates",0.9092544732179149,"Entity is registered in BVI, a known tax haven. Beneficiary owner linked to offshore financial structures.; No specific risk detected."
+TXN-2024-7BD5TC,"CARDINAL CB CLUB, Umbrella Corporation","Corporation, Corporation",0.8,"OpenCorporates, OpenCorporates",0.954291100660277,No specific risk detected.; No specific risk detected.
